@@ -1,0 +1,14 @@
+@media screen and (min-width: 0){
+	.areaEncriptar{
+		margin: 1rem 0 0 0;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 992px){
+	.areaEncriptar{
+		margin: 2rem 0 0 4.5rem;
+		flex-grow: 1;
+		width: calc(50% - 4rem);
+	}
+}

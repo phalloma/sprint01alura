@@ -1,0 +1,17 @@
+.main{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 4rem;
+}
+@media screen and (min-width: 0){
+	.main{
+		flex-direction: column;
+	}
+}
+
+@media screen and  (min-width: 992px){
+	.main{
+		flex-direction: row;
+	}
+}

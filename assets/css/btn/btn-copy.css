@@ -1,0 +1,22 @@
+.btn__copy{
+	background: transparent;
+	border: 1px solid #0A3871;
+    border-radius: 20px;   
+	bottom: 20;
+	color: #0A3871;
+	left: 0;
+	margin: 0 auto;
+	height: 50px;
+    font-family: Inter;
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: 0em;
+	line-height: 19px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	width: 95%;
+}
+.btn__copy:hover{
+	cursor: pointer;
+}

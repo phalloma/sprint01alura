@@ -1,0 +1,42 @@
+.areaDescriptar__input{
+	background: #fdfdfd;
+	border: none;
+	border-radius: 30px;
+	color: #0A3871;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 48px;
+	letter-spacing: 0em;
+	padding: 2rem;
+	resize: none;
+	text-align: left;
+}
+.areaDescriptar__input::placeholder {
+	color: #0A3871;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 48px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.areaDescriptar__input:focus{
+	border: none;
+    outline: none;
+}
+@media screen and (min-width: 0){
+	.areaDescriptar__input{
+		height:186px;
+		width: 100%;
+	}
+}
+
+
+@media screen and (min-width: 992px){
+	.areaDescriptar__input{
+		height: 550px;
+		width: 100%;
+		
+	}
+}

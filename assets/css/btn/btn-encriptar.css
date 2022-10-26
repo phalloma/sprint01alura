@@ -1,0 +1,30 @@
+.btn__encriptar{
+	background: #0A3871;
+	border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Inter;
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: 0em;
+	line-height: 19px;
+    height: 50px;
+	text-align: center;
+	width: calc(50% - 2rem);
+}
+.btn__encriptar:hover{
+	cursor: pointer;
+
+}
+@media screen and (min-width: 0){
+	.btn__encriptar{
+		margin: 1rem 0 0;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 678px){
+	.btn__encriptar{
+    	margin: 1rem;
+	}
+}

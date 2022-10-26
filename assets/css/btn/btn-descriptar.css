@@ -1,0 +1,37 @@
+.btn__descriptar{
+	border: 1px solid #0A3871;
+    border-radius: 20px;
+	color: #0A3871;
+    font-family: Inter;
+	font-size: 1rem;
+	font-weight: 400;
+    height: 50px;
+	letter-spacing: 0em;
+	line-height: 19px;
+	text-align: center;
+	width: calc(50% - 2rem); 
+}
+
+.btn__descriptar:hover{
+	cursor: pointer;
+
+}
+@media screen and (min-width: 0){
+	.btn__descriptar{
+		background: transparent;
+		margin: 1rem 0 0;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 678px){
+	.btn__descriptar{
+    	background: transparent;
+    	margin: 1rem;
+	}
+}
+@media screen and (min-width: 992px){
+	.btn__descriptar{
+		background-color: #D8DFE8;
+	}
+}

@@ -1,0 +1,63 @@
+<DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Codificador</title>
+	<link href="./assets/css/areaEncriptar/areaEncriptar.css" rel="stylesheet">
+	<link href="./assets/css/areaEncriptar/areaEncriptar-input.css" rel="stylesheet">
+	<link href="./assets/css/areaEncriptar/legenda-img.css" rel="stylesheet">
+	<link href="./assets/css/areaEncriptar/legenda-label.css" rel="stylesheet">
+	<link href="./assets/css/areaEncriptar/legenda.css" rel="stylesheet">
+	<link href="./assets/css/btn/btn.css" rel="stylesheet">
+	<link href="./assets/css/btn/btn-encriptar.css" rel="stylesheet">
+	<link href="./assets/css/btn/btn-descriptar.css" rel="stylesheet">
+	<link href="./assets/css/main.css" rel="stylesheet">
+	<link href="./assets/css/style.css" rel="stylesheet">
+	<link href="./assets/css/areaDescriptar/areaDescriptar.css" rel="stylesheet">
+	<link href="./assets/css/areaDescriptar/areaDescriptar-input.css" rel="stylesheet">
+	<link href="./assets/css/mensagem/mensagem-descricao.css" rel="stylesheet">
+	<link href="./assets/css/mensagem/mensagem-titulo.css" rel="stylesheet">
+	<link href="./assets/css/mensagem/mensagem-img.css" rel="stylesheet">
+	<link href="./assets/css/mensagem/mensagem.css" rel="stylesheet">
+	<link href="./assets/css/btn/btn-copy.css" rel="stylesheet">
+	<link href="./assets/css/btn/btnCopy-aparece.css" rel="stylesheet">
+	<link href="./assets/css/logo.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel=" stylesheet">
+</head>
+<body>
+	<header>
+		<img src="./assets/img/logo.png" class="logo">
+	</header>
+	<main class="main">
+		<section class="areaEncriptar">
+			<textarea name="input" type="text" id="" placeholder="Digite seu texto aqui" class="areaEncriptar__input"></textarea>
+			<div class="legenda">
+				<img src="./assets/img/info.png" class="legenda__img">
+				<label for="areaEncriptar__input" class="legenda__label">Apenas letras minúsculas e sem acento</label>
+			</div>
+			<div class="btn">
+				<button class="btn__encriptar" onclick="btnEncriptar()">Encriptar</button>
+				<button class="btn__descriptar" onclick="btnDescript()">Descriptografar</button>
+			</div>
+		</section>
+
+
+		<section class="areaDescriptar">
+			<textarea name="output" type="text" id="" class="areaDescriptar__input"></textarea>
+			<div class="mensagem">
+				<img src="./assets/img/background-cript.png" class="mensagem__img" alt="Boneco" >
+				<h2 class="mensagem__titulo">Nenhuma mensagem encontrada</h2>
+				<p class="mensagem__descricao">Digite um texto que você deseja criptografar ou descriptografar</p>
+			</div>
+			<div class="btnCopy--aparece">
+				<button class="btn__copy" onclick="execCopy()">Copiar</button>
+			</div>
+		</section>
+	</main>
+	 <script src="./assets/script/script.js"></script>
+</body>
+</html>

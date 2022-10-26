@@ -1,0 +1,15 @@
+
+@media screen and (min-width: 0){
+	.areaDescriptar{
+		margin-top: 1rem;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 992px){
+	.areaDescriptar{
+		flex-grow: 1;
+		margin: 0 4rem;
+		width: calc(30% - 4rem);
+	}
+}

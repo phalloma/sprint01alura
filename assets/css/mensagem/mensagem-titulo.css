@@ -1,0 +1,24 @@
+.mensagem__titulo{
+	font-family: Inter;
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: center;
+	position: absolute;
+	width: 220px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+@media screen and (min-width: 0){
+	.mensagem__titulo{
+		bottom: 80;
+	}
+}
+
+@media screen and (min-width: 992px){
+	.mensagem__titulo{
+		bottom: 200;
+	}
+}

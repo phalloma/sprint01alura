@@ -1,0 +1,20 @@
+.mensagem__img{
+	width: 220px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 250;
+	position: absolute;
+	
+}
+@media screen and (min-width: 0 ){
+	.mensagem__img{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 992px){
+	.mensagem__img{
+		display: block;
+	}
+}
